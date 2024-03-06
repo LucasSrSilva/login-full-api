@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/perfil.css">
+    <title>Perfil</title>
+</head>
+<body>
+    <main>
+        <section>
+            <img src="../public/imgs/logo.png" alt="Logo">
+            <h1>Bem vindo ao seu perfil <%= usuario %></h1>
+            <form action="logout">
+                <label for="usuario">Usuário: </label>
+                <input type="text" name="usuario" placeholder="<%= usuario %>" min="1" max="25" readonly>
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" placeholder="<%= email %>" min="1" max="50" readonly>
+                <label for="nome">Nome completo: </label>
+                <input type="text" name="nome" placeholder="<%= full_name %>" min="1" max="50" readonly>
+                <input type="submit" value="Logout">
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>

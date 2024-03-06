@@ -1,0 +1,43 @@
+body{
+    background-color: #121629;
+}
+main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #232946;
+    height: 350px;
+    width: 320px;
+    padding: 35px;
+    border-radius: 15px;
+}
+section img{
+    width: 200px;
+}
+section form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+    width: 100%;
+    color: #232946;
+}
+section form input{
+    margin-top: 10px;
+    background-color: #b8c1ec;
+    border: none;
+    height: 25px;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 15px;
+}
+section form label{
+    margin-top: 10px;
+    color: #eebbc3;;
+}

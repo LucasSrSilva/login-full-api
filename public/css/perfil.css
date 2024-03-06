@@ -1,0 +1,51 @@
+body{
+    background-color: #121629;
+}
+main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #232946;
+    height: 350px;
+    width: 320px;
+    padding: 0 35px 35px 35px;
+    border-radius: 15px;
+}
+main section img{
+    width: 200px;
+}
+main section form{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    width: auto;
+    color: #232946;
+
+}
+main section form label{
+    color: #b8c1ec;
+    margin-top: 10px;
+}
+main section form input{
+    border: 1px solid gray;
+    outline: none;
+    background-color: #b8c1ec;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+main section form input::placeholder{
+    color: #232946;;
+    font-weight: bold;
+}
+form [type="submit"]{
+    margin: 10px 20px;
+    background-color: #eebbc3;
+    font-size: 13px;
+    cursor: pointer;
+}
